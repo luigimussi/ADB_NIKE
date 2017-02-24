@@ -55,7 +55,7 @@ As
 				, @Cd_AR
 				, @prezzoOld
 				, @prezzoNew
-				)
+				) 
 
 			Fetch Next From crInserted Into @Id_LSArticolo	
 		End
