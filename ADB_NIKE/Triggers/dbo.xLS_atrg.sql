@@ -1,7 +1,7 @@
 SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 GO
-	Create Trigger dbo.xLS_atrg On dbo.LS  For Insert, Update, Delete As
+	Create Trigger [dbo].[xLS_atrg] On [dbo].[LS]  For Insert, Update, Delete As
 	Begin
 		If @@RowCount = 0 Or (dbo.afn_TrgSkipIsOn() > 0) Return
 
